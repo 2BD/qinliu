@@ -1,0 +1,21 @@
+.card {
+    border: 1px rgba(0,0,0,0.2) solid;
+    width: 50%;
+    margin: 20px auto;
+    padding: 20px;
+}
+
+.card:hover {
+    box-shadow: 0 0 5px #888888;
+}
+
+.card-title {
+    color: rgb(2,180,240);
+    font-size: 2em;
+    font-weight: bold;
+    margin: 5px 0;
+}
+
+.card-image {
+    padding: 5px;
+}
