@@ -63,11 +63,11 @@
 
 	.button
 	{
-		padding: 0 2.25em 0 2.25em;
+		/*padding: 0 2.25em 0 2.25em;*/
 		font-size: 0.9em;
 		min-width: 12em;
 		height: 4em;
-		line-height: 4em;
+		/*line-height: 4em;*/
 	}
 	
 		.button-big
