@@ -5,6 +5,10 @@
 
     /*background-image:url("../img/sponsor/test1.jpg");*/
 }
+#info-form{
+    margin-top:5vh;
+    display: block;
+}
 #divspon{
     margin-top: 5vh;
     display: block;
