@@ -50,6 +50,8 @@
 }
 .people{
     padding: auto;
+    border-collapse: separate;
+    border-spacing: 30px
 }
 
 .people img{
@@ -81,6 +83,7 @@
     font-size:14px;
     padding: 1vw 1vw 1vw 1vw;
     border-radius:8px;
+    
 }
 #q-a h3{
     color:#20a0ff;
