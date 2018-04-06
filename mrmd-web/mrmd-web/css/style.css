@@ -858,7 +858,7 @@
 			right: -35px;
 			width: 35px;
 			height: 38px;
-			background: url('../img/css/baaack.jpg');
+			background: url('images/shadow.png');
 			-moz-transform: scaleX(-1);
 			-webkit-transform: scaleX(-1);
 			-o-transform: scaleX(-1);
@@ -868,7 +868,7 @@
 
 	#header-wrapper
 	{
-		background: url('../img/css/baaack.jpg') center center;
+		background: url('../img/css/back1.jpg') center center;
 		background-size: cover;
 	}
 	
