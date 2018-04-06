@@ -63,11 +63,11 @@
 
 	.button
 	{
-		padding: 0 2.25em 0 2.25em;
+		/*padding: 0 2.25em 0 2.25em;*/
 		font-size: 0.9em;
 		min-width: 12em;
 		height: 4em;
-		line-height: 4em;
+		/*line-height: 4em;*/
 	}
 	
 		.button-big
@@ -333,7 +333,7 @@
 
 		#logo h1
 		{
-			font-size: 2em;
+			font-size: 3em;
 			letter-spacing: 0.25em;
 		}
 		
@@ -357,6 +357,7 @@
 		left: 0;
 		width: 100%;
 		text-align: center;
+		font-size: 1.3em;
 	}
 
 		#nav > ul > li > ul
@@ -384,7 +385,7 @@
 			{
 				display: block;
 				color: #eee;
-				color: rgba(0,0,233,0.75);
+				/* color: #eee; */
 				text-transform: uppercase;
 				text-decoration: none;
 				font-size: 1.0em;
@@ -400,10 +401,14 @@
 			}
 			
 			#nav > ul > li:hover > a,
-			#nav > ul > li.active > a,
-			#nav > ul > li.active > span
+			#nav > ul > li:active > a,
+			#nav > ul > li:active > span
 			{
-				color: #fff;
+				color: rgb(2,180,240);
+			}
+
+			.current_page_item > a {
+				color: rgb(2,180,240);
 			}
 
 	.dropotron
