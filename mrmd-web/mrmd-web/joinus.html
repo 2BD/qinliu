@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewpoint" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=no">
+    <title>登录/注册</title>
+    <link href="img/css/logo.png" rel="icon" type="image/x-icon"/>
+    <link href="css/joinus.css" rel="stylesheet" type="text/css" />
+    <link href="css/style.css" rel="stylesheet" type="text/css" />
+    <script type="text/javascript" src="js/jss.js" rel="script" ></script>
+</head>
+<body>
+<div id="division">
+    <div id="big-logo">
+        <img class="biglogo" src="img/css/biglogo.png" />
+        <h1 class="heading">母亲河·母亲节</h1>
+        <h3 class="slogan">Clean Water&nbsp;Clean River&nbsp;Clean Drinking</h3>
+        <div id="qrcode">
+            <img class="qrcode" src="img/css/qrcode.jpg" />
+            <p class="notice">扫二维码快速报名参加活动哦～！</p>
+        </div>
+    </div>
+    <nav id="section">
+        <a href="#log" id="loginbut" onclick="showLog()" style="color: #20a0ff">登录</a>
+        <a href="#regis" id="regisbut" onclick="showRegis()" style="color: gray">注册</a>
+        <span id="slider"></span>
+    </nav>
+    <div id="log" >
+        <form method="post">
+            <p>
+                <label>用户名</label>
+                <input id="username" class="logframe" type="text" size="20" placeholder="请输入用户名"/>
+                <img id="user" src="img/css/user.png" />
+            </p>
+            <p>
+                <label>&nbsp;&nbsp;密码&nbsp;</label>
+                <input id="password" type="password" size="30" style="display: inline-block" placeholder="">
+                <input id="passwordSee" type="text" size="30" style="display: none" placeholder="请输入密码">
+                <img id="see" src="img/css/lock.png" style="cursor: pointer" onclick="changeCanSee()">
+            </p>
+        </form>
+        <button class="bigbutton" type="submit"  disabled="disabled">登录（暂不可用）</button>
+    </div>
+    <div id="regis" style="display:none">
+        <form method="post">
+            <p>
+            <label>用户名</label>
+            <input class="frame" type="text" maxlength="20" placeholder="请输入用户名">
+            </p>
+            <p>
+            <label>&nbsp;&nbsp;学校&nbsp;</label>
+            <input class="frame" type="text" maxlength="20" placeholder="请输入所在学校">
+            </p>
+            <p>
+            <label>&nbsp;&nbsp;学号&nbsp;</label>
+            <input class="frame" type="text" maxlength="20" placeholder="请输入学号">
+            <p>
+            <label>&nbsp;&nbsp;邮箱&nbsp;</label>
+            <input class="frame" type="text" maxlength="20" placeholder="请输入常用邮箱">
+            </p>
+            <p>
+            <label>&nbsp;&nbsp;手机&nbsp;</label>
+            <input class="frame" type="text" maxlength="20" placeholder="请输入手机号码（用于活动通知）">
+            </p>
+            <p>
+            <label>&nbsp;&nbsp;密码&nbsp;</label>
+            <input id="chp" class="frame" type="password" size="30" style="display: inline-block" placeholder="">
+            <input id="cht" class="frame" type="text" size="30" style="display: none" placeholder="请输入密码">
+            <img id="seereg" src="img/css/lock.png" style="cursor: pointer" onclick="changeRegCanSee()">
+            </p>
+        </form>
+        <button class="bigbutton" id="registerbtn"  disabled="disabled">注册(暂不可用)</button>
+    </div>
+</div>
+<!-- Copyright -->
+<div id="copyright">
+        <span>
+            <p>Designed & developed by  ZhuoCheng Gan, JunBo Qin & Matha.</p>
+            <p>Copyright © Mother River Mother's Day, 2015-2017</p>
+        </span>
+</div>
+<!-- /Copyright -->
+</body>
+</html>

@@ -1,0 +1,67 @@
+#content{
+    max-width:80vw;
+    margin-left:auto;
+    margin-right:auto;
+    margin-top:3vh;
+}
+.title{
+    color:#20a0ff;
+    font-size:32px;
+    line-height: 35px;
+    text-align: center;
+}
+.body{
+    text-align: center;
+}
+#survey img{
+    max-width:60vw;
+}
+#dec-spot img{
+
+    max-width:60vw;
+}
+#act img{
+    max-width:60vw;
+}
+#act video{
+    padding-left:130px;
+    max-width:500px;
+}
+#survey p{
+    padding:10px;
+    font-size: 14px;
+}
+#dec-spot p{
+    padding:10px;
+    font-size: 14px;
+}
+#act p{
+    padding:10px;
+    font-size: 14px;
+}
+#menu {
+
+    height: auto;
+    position: fixed;
+    top: 50%;
+    right: 75px;
+    margin-top: -135px;
+}
+#menu ul{
+    display: block;
+    list-style: none;
+}
+#menu ul li a{
+
+    height: 54px;
+    line-height: 54px;
+    text-align: center;
+    background-color: #fff;
+    color: #20a0ff;
+    display: block;
+    text-decoration: none;
+}
+#menu ul li a:hover,#menu ul li a.cur {
+    background-color: #20a0ff;
+    color: #fff;
+}

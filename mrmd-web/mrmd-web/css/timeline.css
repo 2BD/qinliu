@@ -1,0 +1,63 @@
+.main{
+    width:1000px;
+}
+.main ul, li {
+    list-style:none;
+}
+/*.public*/
+/*history*/
+.history {
+    background:url(../img/timeline/line05.png) repeat-y 5vw 0;
+    background-size: 5vw auto;
+    overflow:hidden;
+    position:relative;
+    margin:1vh 5vw 0 5vw;
+    max-width: 90vw;
+}
+.history-date {
+    overflow:hidden;
+}
+.history-date h2 {
+    color:#3990e5;
+    background:url(../img/timeline/time.png) #fff no-repeat 2.5vw 0 ;
+    background-size: 5vw auto;
+    font-size: 48px;
+    margin-top: 7vh;
+    padding-left: 10vw;
+    margin-bottom: 5vh;
+    z-index: 99;
+}
+.history-date h2 { position:relative;z-index:99;}
+
+.history-date ul li {
+    background:url(../img/timeline/time2.png) no-repeat 4vw 0;
+    zoom:1;
+    width:80vw;
+    padding-left: 10vw;
+}
+.history-date ul li.last { padding-bottom:0;}
+
+.history-date ul li:after{content:" "; display:block; height:0; clear:both; visibility:hidden;}
+
+.history-date ul li h3 {
+    color:#000000;
+    margin-bottom: 2vh;
+    font:normal 28px Arial;
+    display: block; }
+
+.history-date ul li h3 span
+{ width:80vw; display:block; color:#000000; font-size:16px;}
+
+.history-date ul li h3 span a{background-color:#20a0ff;color:#ffffff;border-radius:4px;}
+
+.history-date ul li dl
+{padding-left:1vw; float:left; width:80vw;}
+
+.history-date ul li dl dt {
+    font-size:24px;
+    color:#000000;
+    font-family:"Kaiti SC"}
+.history-date ul li dl dt span { padding-top:10px;display:block; color:#3990e5; font-size:16px; }
+.history-date ul li dl dt span img{padding-top:1vh; width:50vw; display: block}
+
+

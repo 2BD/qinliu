@@ -1,0 +1,105 @@
+#divspon{
+    max-width:80vw;
+    margin: auto;
+    text-align: center;
+
+    /*background-image:url("../img/sponsor/test1.jpg");*/
+}
+#divspon{
+    margin-top: 5vh;
+    display: block;
+
+}
+#divbespon{
+    position:relative;
+    max-width:40vw;
+    float:left;
+}
+#sponsors{
+    max-width:60vw;
+    display: inline-block;
+}
+.slogan{
+    text-align:center;
+    font-size:32px;
+    color:#3990e5;
+}
+.slogan2{
+    display: block;
+    text-align:center;
+    font-size:32px;
+    color:#3990e5;
+}
+
+.notice{
+    text-align:center;
+    color:#ff2d9f;
+}
+.bl{
+    font-size:18px;
+    display:block;
+    margin-top:20px;
+    margin-bottom: 20px;
+}
+
+.form{
+    position: relative;
+    max-width: 30vw;
+    height:40px;
+    border-radius:8px;
+}
+.form2{
+    position: relative;
+    max-width:260px;
+    height:40px;
+    border-radius:8px;
+    margin-left: 18px;
+}
+.form3{
+    position: relative;
+    max-width:260px;
+    height:40px;
+    border-radius:8px;
+    margin-left: 36px;
+
+}
+.button{
+    max-width:220px;
+    height:50px;
+    border-radius:8px;
+    background-color:#808080;
+    color:#ffffff;
+    border-style:none;
+    font-size:20px;
+    margin-top:25px;
+    display: block;
+}
+#fondshow {
+    text-align: center;
+}
+#fondinput{
+    width:600px;
+    display: inline;
+    float:left;
+}
+#fondoutput{
+    width:450px;
+}
+.sponpic{
+    width:150px;
+}
+.line{
+    height:30px;
+}
+#fondshow table td{
+    text-align: center;
+}
+.spon{
+    width:200px;
+}
+.text{
+    width:150px;
+    height:30px;
+}
+
+
