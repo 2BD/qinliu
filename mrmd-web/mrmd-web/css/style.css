@@ -252,7 +252,7 @@
 	
 	p, ul, ol, dl, table, blockquote, form
 	{
-		margin-bottom: 2em;
+		/* margin-bottom: 2em; */
 	}
 	
 	section,
@@ -1162,3 +1162,18 @@
 				{
 					color: #333333;
 				}
+
+
+#menu {
+	background-color: rgba(255, 255, 255, 0.356);
+	/* border-left: 2px; */
+	border-left: solid 4px rgb(2,180,240);
+	transform: translateX(40px);
+	box-shadow: 0 0 10px rgba(0,0,0,0.1);
+	
+}
+
+#menu > ul >li >a {
+	padding: 0 10px ;
+	background-color: rgba(255, 255, 255, 0.356);
+}
