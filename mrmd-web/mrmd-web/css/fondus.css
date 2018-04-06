@@ -22,6 +22,7 @@
 #sponsors{
     max-width:60vw;
     display: inline-block;
+
 }
 .slogan{
     text-align:center;
@@ -50,20 +51,20 @@
     position: relative;
     max-width: 30vw;
     height:40px;
-    border-radius:8px;
+    border-radius:10px;
 }
 .form2{
     position: relative;
     max-width:260px;
     height:40px;
-    border-radius:8px;
+    border-radius:10px;
     margin-left: 18px;
 }
 .form3{
     position: relative;
     max-width:260px;
     height:40px;
-    border-radius:8px;
+    border-radius:10px;
     margin-left: 36px;
 
 }
@@ -83,14 +84,19 @@
 }
 #fondinput{
     width:600px;
-    display: inline;
-    float:left;
+    display: inline-block;
+    float:bottom;
+    margin-top: 5vh;
 }
 #fondoutput{
     width:450px;
+
 }
 .sponpic{
     width:150px;
+}
+.spontext{
+    padding:10px;
 }
 .line{
     height:30px;
@@ -101,9 +107,11 @@
 .spon{
     width:200px;
 }
+.spon_border{
+    border-right:solid 1px #add9c0;
+}
 .text{
     width:150px;
     height:30px;
 }
-
 
