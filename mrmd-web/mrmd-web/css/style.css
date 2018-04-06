@@ -993,7 +993,7 @@
 	
 		.wrapper-style1 .title
 		{
-			background: rgba(0,180,255,0.75) url('images/overlay.png');
+			background: rgba(0,180,255,0.5) url('images/overlay.png');
 			color: rgba(255,255,255,0.75);
 		}
 		.wrapper-style1 h1,
