@@ -401,9 +401,13 @@
 			}
 			
 			#nav > ul > li:hover > a,
-			#nav > ul > li.active > a,
-			#nav > ul > li.active > span
+			#nav > ul > li:active > a,
+			#nav > ul > li:active > span
 			{
+				color: rgb(2,180,240);
+			}
+
+			.current_page_item > a {
 				color: rgb(2,180,240);
 			}
 
