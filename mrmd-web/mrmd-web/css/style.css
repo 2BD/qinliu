@@ -858,12 +858,7 @@
 			right: -35px;
 			width: 35px;
 			height: 38px;
-<<<<<<< HEAD
 			background: url('images/shadow.png');
-=======
-			background: url('../img/css/baaack.jpg');
-			color:rgba(255,255,255,0.75);
->>>>>>> 9aea9cd11ab2a2c6525d61604bf8d3c6c0f651b1
 			-moz-transform: scaleX(-1);
 			-webkit-transform: scaleX(-1);
 			-o-transform: scaleX(-1);
