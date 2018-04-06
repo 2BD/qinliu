@@ -858,7 +858,12 @@
 			right: -35px;
 			width: 35px;
 			height: 38px;
+<<<<<<< HEAD
 			background: url('images/shadow.png');
+=======
+			background: url('../img/css/baaack.jpg');
+			color:rgba(255,255,255,0.75);
+>>>>>>> 9aea9cd11ab2a2c6525d61604bf8d3c6c0f651b1
 			-moz-transform: scaleX(-1);
 			-webkit-transform: scaleX(-1);
 			-o-transform: scaleX(-1);
@@ -986,17 +991,15 @@
 	
 	.wrapper-style1
 	{
-		background: #e97770 url('images/overlay.png');
-		color: #eee;
+		background: rgba(0,180,255,0.5) url('images/overlay.png');
 		color: rgba(255,255,255,0.75);
 	}
 	
 		.wrapper-style1 .title
 		{
-			background: #e97770 url('images/overlay.png');
-			color: #fff;
+			background: rgba(0,180,255,0.75) url('images/overlay.png');
+			color: rgba(255,255,255,0.75);
 		}
-	
 		.wrapper-style1 h1,
 		.wrapper-style1 h2,
 		.wrapper-style1 h3,
@@ -1105,6 +1108,7 @@
 }
 #fondoutput{
 	width:450px;
+	transform:translateX(50px);
 }
 .sponpic{
 	width:150px;
@@ -1113,14 +1117,28 @@
 	height:30px;
 }
 #fondshow table td{
-	text-align: center;
+	/*text-align: center;*/
 }
 .spon{
 	width:200px;
 }
-.text{
+.text2{
+	padding-left:30px;
 	width:150px;
 	height:30px;
+	text-align: left;
+	transform:translateY(-7px);
+	border-bottom:dashed 1px #add9c0;
+}
+.text{
+	border-bottom:dashed 1px #add9c0;
+	width:200px;
+	margin-left:15px;
+	margin-right:15px;
+	padding-left:15px;
+	height:30px;
+	text-align:left;
+	transform:translateY(-7px);
 }
 /*********************************************************************************/
 /* Copyright                                                                     */
